@@ -11,7 +11,7 @@
         <!--Primeiro Controller-->
         <scene sceneID="ikM-va-7B0">
             <objects>
-                <viewController title="Primeiro Controller" id="IFp-TU-C5c" sceneMemberID="viewController">
+                <viewController title="Primeiro Controller" id="IFp-TU-C5c" customClass="PrimeiroControllerUIViewController" customModule="MeuPrimeiroProjeto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6zH-Wi-wHQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,11 +34,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="didTapButton:" destination="IFp-TU-C5c" eventType="touchUpInside" id="k3n-A1-Ppf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xLa-Xw-VR1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="ybo-jw-OC6" id="jSa-x1-47j"/>
+                        <outlet property="nameTextField" destination="IcW-2G-dX9" id="tsO-f4-cpe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Vx-Uh-aDG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

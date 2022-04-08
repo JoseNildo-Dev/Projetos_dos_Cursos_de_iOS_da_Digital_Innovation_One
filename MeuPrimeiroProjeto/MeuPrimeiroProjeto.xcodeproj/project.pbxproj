@@ -15,6 +15,7 @@
 		1FCB93D827FF6A6D00367E1C /* MeuPrimeiroProjetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB93D727FF6A6D00367E1C /* MeuPrimeiroProjetoTests.swift */; };
 		1FCB93E227FF6A6D00367E1C /* MeuPrimeiroProjetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB93E127FF6A6D00367E1C /* MeuPrimeiroProjetoUITests.swift */; };
 		1FCB93E427FF6A6D00367E1C /* MeuPrimeiroProjetoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB93E327FF6A6D00367E1C /* MeuPrimeiroProjetoUITestsLaunchTests.swift */; };
+		1FCB93F127FFB08800367E1C /* PrimeiroControllerUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB93F027FFB07300367E1C /* PrimeiroControllerUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1FCB93DD27FF6A6D00367E1C /* MeuPrimeiroProjetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuPrimeiroProjetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCB93E127FF6A6D00367E1C /* MeuPrimeiroProjetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPrimeiroProjetoUITests.swift; sourceTree = "<group>"; };
 		1FCB93E327FF6A6D00367E1C /* MeuPrimeiroProjetoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuPrimeiroProjetoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FCB93F027FFB07300367E1C /* PrimeiroControllerUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroControllerUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1FCB93C027FF6A6900367E1C /* AppDelegate.swift */,
 				1FCB93C227FF6A6900367E1C /* SceneDelegate.swift */,
 				1FCB93C627FF6A6900367E1C /* Main.storyboard */,
+				1FCB93F027FFB07300367E1C /* PrimeiroControllerUIViewController.swift */,
 				1FCB93C927FF6A6D00367E1C /* Assets.xcassets */,
 				1FCB93CB27FF6A6D00367E1C /* LaunchScreen.storyboard */,
 				1FCB93CE27FF6A6D00367E1C /* Info.plist */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCB93F127FFB08800367E1C /* PrimeiroControllerUIViewController.swift in Sources */,
 				1FCB93C127FF6A6900367E1C /* AppDelegate.swift in Sources */,
 				1FCB93C327FF6A6900367E1C /* SceneDelegate.swift in Sources */,
 			);
